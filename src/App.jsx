@@ -91,8 +91,8 @@ const App = () => {
    return(
     <div className='overflow-x-hidden '>
       <Routes>c
-        <Route path='/' element={<ContactUs/>}/>
-        <Route path='/contact' element={<AboutUsPage/>}/>
+        <Route path='/Project1' element={<ContactUs/>}/>
+        <Route path='/Project1/contact' element={<AboutUsPage/>}/>
       </Routes>
     </div>
    )
