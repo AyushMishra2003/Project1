@@ -90,7 +90,7 @@ const App = () => {
 
    return(
     <div className='overflow-x-hidden '>
-      <Routes>c
+      <Routes>
         <Route path='/Project1' element={<ContactUs/>}/>
         <Route path='/Project1/contact' element={<AboutUsPage/>}/>
       </Routes>
