@@ -92,7 +92,7 @@ const App = () => {
     <div className='overflow-x-hidden '>
       <Routes>
         <Route path='/Project1' element={<ContactUs/>}/>
-        <Route path='/Project1/contact' element={<AboutUsPage/>}/>
+        <Route path='Project1/contact' element={<AboutUsPage/>}/>
       </Routes>
     </div>
    )
